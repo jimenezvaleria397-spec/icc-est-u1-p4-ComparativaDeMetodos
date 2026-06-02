@@ -1,18 +1,37 @@
-## Getting Started
+## Tabla 1. Escenario 1: arreglo completamente desordenado
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+| Tamaño de muestra | Tiempo Inserción | Tiempo QuickSort | Algoritmo más rápido | Observación |
+|---|---|---|---|---|
+| 10.000 |  |  |  |  |
+| 50.000 |  |  |  |  |
+| 100.000 |  |  |  |  |
 
-## Folder Structure
+## Tabla 2. Escenario 2: arreglo ordenado más una nueva persona
 
-The workspace contains two folders by default, where:
+| Tamaño de muestra | Tiempo Inserción | Tiempo QuickSort | Algoritmo más rápido | Observación |
+|---|---|---|---|---|
+| 10.001 |  |  |  |  |
+| 50.001 |  |  |  |  |
+| 100.001 |  |  |  |  |
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Análisis requerido
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Después de completar las tablas, se debe responder:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- ¿Qué algoritmo fue más rápido en el escenario desordenado?
+- ¿Qué algoritmo fue más rápido en el escenario casi ordenado?
+- ¿El crecimiento del tamaño de muestra afectó por igual a los dos algoritmos?
+- ¿Por qué Inserción puede mejorar cuando el arreglo ya está casi ordenado?
+- ¿Por qué QuickSort suele ser mejor cuando los datos están muy desordenados?
 
-## Dependency Management
+*Nota:* Los resultados, observaciones y análisis deben ser escritos por cada uno con base en su ejecución. No se permite presentar análisis generados por IA.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Conclusiones
+
+Se debe redactar al menos tres conclusiones propias. Las conclusiones deben estar relacionadas directamente con los tiempos obtenidos.
+
+- Conclusión 1: ________________
+- Conclusión 2: ________________
+- Conclusión 3: ________________
+
+*Importante:* Las conclusiones no pueden ser generadas con IA. Deben reflejar su análisis a partir de los resultados reales de la práctica
